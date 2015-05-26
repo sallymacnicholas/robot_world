@@ -1,0 +1,135 @@
+a {
+  color: #45D6B8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  text-align: center;
+}
+
+/*******HEADERS*********/
+h3 a {
+  font-family: Roboto Condensed, sans-serif;
+  text-transform: uppercase;
+  text-align: justify;
+  color: black;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: Roboto Condensed, sans-serif;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 0 0 10px 0;
+  color: black;
+}
+
+/*******OTHERSTUFF*******/
+body {
+  font-family: Roboto Condensed, sans-serif;
+}
+
+.footer {
+  clear: both;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  color: #333333;
+  width: 100%;
+  padding: 5px 0 5px 0;
+}
+
+ul {
+  font-family: Roboto Condensed, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  list-style-type: none;
+  text-align: inherit;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+body {
+  background-image: url("/img/robot3.jpg");
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+h1 {
+  font-family: Roboto Condensed, sans-serif;
+  font-size: 30px;
+  color: #333333;
+  margin: 0px;
+}
+
+/*******NAVIGATION*********/
+nav {
+  padding: 5px 0 30px 0;
+}
+
+nav a.selected, nav a:hover {
+  color: cornflowerblue;
+}
+
+nav li a {
+  font-size: 18px;
+  display: inline-block;
+  padding: 0 15px 0 0;
+  text-decoration: none;
+  float: left;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 200;
+}
+
+.landing {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.splash-header {
+  font-family: Roboto Condensed Condensed, sans-serif;
+  font-size: 50px;
+  color: black;
+  font-weight: 300;
+  padding: 0 0 20px 0;
+}
+
+.spash-header3{
+  font-family: Roboto Condensed Condensed, sans-serif;
+  font-size: 12px;
+  color: black;
+  font-weight: black;
+  padding: 200px 0 20px 0;
+}
+
+
+h1 span {
+  color: #B2B2B2;
+}
+
+/*******BUTTONS*********/
+input[type="submit"] {
+  text-decoration:none;
+  text-align:center;
+  padding:11px 32px;
+  border:solid 2px black;
+  font:18px Roboto Condensed, sans-serif;
+  color: black;
+  background: none;
+}
+
+.button{
+  text-decoration:none;
+  text-align:center;
+  padding:11px 32px;
+  border:solid 2px black;
+  font:18px Roboto Condensed, sans-serif;
+  color: black;
+}
+

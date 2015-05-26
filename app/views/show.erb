@@ -1,0 +1,22 @@
+<h1><%= @robot.name %></h1>
+
+<img src="<%= @robot.avatar %>" width="100"/>
+
+<ul>
+  <li>Location: <%= @robot.city %>, <%= @robot.state %></li>
+  <li>Birthdate: <%= @robot.birthdate %></li>
+  <li>Date Hired: <%= @robot.date_hired %></li>
+  <li>Department: <%= @robot.department %></li>
+</ul>
+<br>
+<br>
+<br>
+<a href="/robots/<%= @robot.id %>/edit" class="button">EDIT</a>
+<br>
+<br>
+<br>
+<br>
+<form action="/robots/<%= @robot.id %>" method="POST">
+  <input type="hidden" value="DELETE" name="_method">
+  <input type="submit" value="DELETE">
+</form>

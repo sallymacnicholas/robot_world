@@ -73,7 +73,7 @@ nav {
 }
 
 nav a.selected, nav a:hover {
-  color: cornflowerblue;
+  color: #88cbf1;
 }
 
 nav li a {
